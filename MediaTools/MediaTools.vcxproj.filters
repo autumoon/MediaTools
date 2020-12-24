@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\cximage">
+      <UniqueIdentifier>{2cddf8df-f981-468e-8f7b-f8c0a33560fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\cximage">
+      <UniqueIdentifier>{c261ec06-ef36-42a5-9001-fd2dd3745389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{3e865ca7-2219-44f6-b47f-6e2e1e186bc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\openExif">
+      <UniqueIdentifier>{0398e1b6-4dbe-4dc5-8bb3-d024797b5b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\openExif\OpenExifJpeg">
+      <UniqueIdentifier>{dab5b336-da07-4b29-996c-d61d4299bf1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\src">
+      <UniqueIdentifier>{4307acab-ca7b-4821-a028-7b4fb5cc58e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\gdal">
+      <UniqueIdentifier>{7bf7e8ea-8c90-4b8c-92e1-77337cfadeea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MediaTools.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MediaToolsDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MediaTools.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ImgTools.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ImgTools.png">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MediaTools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaToolsDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaToolsView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cximage\cxImageUser.h">
+      <Filter>头文件\cximage</Filter>
+    </ClInclude>
+    <ClInclude Include="cximage\xfile.h">
+      <Filter>头文件\cximage</Filter>
+    </ClInclude>
+    <ClInclude Include="cximage\ximacfg.h">
+      <Filter>头文件\cximage</Filter>
+    </ClInclude>
+    <ClInclude Include="cximage\ximadef.h">
+      <Filter>头文件\cximage</Filter>
+    </ClInclude>
+    <ClInclude Include="cximage\ximage.h">
+      <Filter>头文件\cximage</Filter>
+    </ClInclude>
+    <ClInclude Include="cximage\ximagif.h">
+      <Filter>头文件\cximage</Filter>
+    </ClInclude>
+    <ClInclude Include="cximage\xiofile.h">
+      <Filter>头文件\cximage</Filter>
+    </ClInclude>
+    <ClInclude Include="cximage\xmemfile.h">
+      <Filter>头文件\cximage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Configure.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ConvertUTF.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Defines.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Exif.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileProperty.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GetDirFiles.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HiperLink.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MfcStrFile.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProgressInterface.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SimpleIni.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StdStrFile.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tvmain.h">
+      <Filter>头文件\src</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassifyFiles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResizePictures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CloneExif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Convertor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeImgs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MediaTools.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaToolsDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaToolsView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cximage\cxImageUser.cpp">
+      <Filter>源文件\cximage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConvertUTF.c">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Configure.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Exif.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileProperty.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GetDirFiles.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HiperLink.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MfcStrFile.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StdStrFile.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifApp0Seg.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifAppSegManager.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifAppSegment.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifFileIO.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifHuffmanTable.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifIFD.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifIJGWrapper.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifIJGWriteFrame.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifImageDescUtils.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifImageFile.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifImageFileRead.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifImageFileWrite.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifInternetIO.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifIO.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifJpegDataDst.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifJpegDataSrc.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifJpegImage.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifMemoryIO.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifMisc.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifOpenFile.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifRawAppSeg.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifStripImage.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\ExifTiffAppSeg.cpp">
+      <Filter>源文件\openExif</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcapimin.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcapistd.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jccoefct.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jccolor.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcdctmgr.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jchuff.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcinit.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcmainct.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcmarker.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcmaster.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcomapi.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcparam.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcphuff.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcprepct.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jcsample.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdapimin.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdapistd.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdatadst.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdatasrc.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdcoefct.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdcolor.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jddctmgr.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdhuff.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdinput.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdmainct.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdmarker.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdmaster.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdmerge.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdphuff.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdpostct.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jdsample.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jerror.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jfdctflt.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jfdctfst.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jfdctint.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jidctflt.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jidctfst.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jidctint.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jidctred.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jmemansi.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jmemmgr.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jquant1.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jquant2.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="openExif\OpenExifJpeg\OpenExif_jutils.cpp">
+      <Filter>源文件\openExif\OpenExifJpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="gdal\GDALShow.cpp">
+      <Filter>源文件\gdal</Filter>
+    </ClCompile>
+    <ClCompile Include="gdal\GdalUser.cpp">
+      <Filter>源文件\gdal</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassifyFiles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ResizePictures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CloneExif.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Convertor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeImgs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MediaTools.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
